@@ -4,6 +4,6 @@
 #import <React/RCTBridgeModule.h>
 #endif
 
-@interface RNPreventScreenshot : NSObject <RCTBridgeModule>
+@interface SecureScreenIos : NSObject <RCTBridgeModule>
 
 @end
