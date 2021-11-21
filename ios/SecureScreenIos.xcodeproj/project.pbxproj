@@ -6,13 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-
-		5E555C0D2413F4C50049A1A2 /* SecureScreenIos.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* SecureScreenIos.m */; };
-		F4FF95D7245B92E800C19C63 /*  SecureScreenIos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /*  SecureScreenIos.swift */; };
-
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -27,11 +20,10 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libSecureScreenIos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSecureScreenIos.a; sourceTree = BUILT_PRODUCTS_DIR; };
-
+		7DCE5412274AFB500016A6AA /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		7DCE5413274AFBB50016A6AA /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* SecureScreenIos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureScreenIos.m; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* SecureScreenIos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecureScreenIos-Bridging-Header.h"; sourceTree = "<group>"; };
-		F4FF95D6245B92E800C19C63 /* SecureScreenIos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureScreenIos.swift; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +48,10 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-
-				F4FF95D6245B92E800C19C63 /* SecureScreenIos.swift */,
 				B3E7B5891CC2AC0600A0062D /* SecureScreenIos.m */,
 				F4FF95D5245B92E700C19C63 /* SecureScreenIos-Bridging-Header.h */,
-
+				7DCE5412274AFB500016A6AA /* UIImage+ImageEffects.h */,
+				7DCE5413274AFBB50016A6AA /* UIImage+ImageEffects.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,10 +113,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
-				F4FF95D7245B92E800C19C63 /* SecureScreenIos.swift in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* SecureScreenIos.m in Sources */,
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,11 +225,9 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = SecureScreenIos;
 				SKIP_INSTALL = YES;
-
 				SWIFT_OBJC_BRIDGING_HEADER = "SecureScreenIos-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-
 			};
 			name = Debug;
 		};
@@ -259,10 +244,8 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = SecureScreenIos;
 				SKIP_INSTALL = YES;
-
 				SWIFT_OBJC_BRIDGING_HEADER = "SecureScreenIos-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-
 			};
 			name = Release;
 		};
